@@ -203,18 +203,16 @@
 .my-blogs1 {
   position: absolute;
   width: calc(100% - 612px);
-  left: 132px;
-  display: inline-block;
-}
-.my-blogs1 {
   top: 135px;
+  left: 132px;
   line-height: 74px;
-  font-family: var(--headings);
+  display: inline-block;
 }
 .lorem-occaecat-proident1 {
   top: 221px;
   font-size: var(--font-size-xl);
   line-height: 30px;
+  font-family: var(--font-inter);
 }
 .image-244-icon1 {
   position: absolute;
@@ -286,7 +284,6 @@
   font-size: var(--font-size-xl);
   line-height: 46px;
   font-weight: 700;
-  font-family: var(--headings);
   color: var(--color-gray-300);
   cursor: pointer;
 }
@@ -298,7 +295,7 @@
   width: 1280px;
 }
 .container-1812 {
-  left: 4px;
+  left: -12px;
   height: 62px;
   font-size: var(--font-size-sm);
   color: var(--color-darkslategray-100);
@@ -306,7 +303,6 @@
 .container-2261 {
   left: calc(50% - 640px);
   height: 354px;
-  font-family: var(--font-inter);
 }
 .container-182-inner,
 .say-hello-and2 {

@@ -129,7 +129,6 @@
   font-size: var(--font-size-xl);
   line-height: 46px;
   font-weight: 700;
-  font-family: var(--headings);
   color: var(--color-gray-300);
   cursor: pointer;
 }
@@ -145,7 +144,6 @@
   height: 62px;
   font-size: var(--font-size-sm);
   color: var(--color-darkslategray-100);
-  font-family: var(--font-inter);
 }
 .container-180 {
   left: calc(50% - 640px);

@@ -87,22 +87,6 @@
         </div>
       </div>
       <div class="container-1801">
-        <div class="container-1814">
-          <div class="header-menu-154">
-            <a class="frame30" href="./my-projects.html" id="frame">
-              <div class="projects4">Projects</div>
-            </a>
-            <div class="frame31">
-              <div class="projects4">About me</div>
-            </div>
-            <a class="frame32" href="./blogs.html" id="frame1">
-              <div class="projects4">Blog</div>
-            </a>
-          </div>
-          <a class="name-folio4" href="homepage.html" id="nameFolio"
-            >Portfolio</a
-          >
-        </div>
         <div class="image-194-parent">
           <img class="image-194-icon" alt="" src="./public/image-194@2x.png" />
 
@@ -148,8 +132,24 @@
           </div>
           <b class="hello-im-nelson1">Hello! I'm Rishav, a UX Designer </b>
         </div>
+        <div class="container-1814">
+          <div class="header-menu-154">
+            <a class="frame30" href="./my-projects.html" id="frame">
+              <div class="projects4">Projects</div>
+            </a>
+            <div class="frame31" id="frameContainer">
+              <div class="projects4">About me</div>
+            </div>
+            <a class="frame32" href="./blogs.html" id="frame1">
+              <div class="projects4">Blog</div>
+            </a>
+          </div>
+          <a class="name-folio4" href="homepage.html" id="nameFolio"
+            >Portfolio</a
+          >
+        </div>
       </div>
-      <div class="container-1824">
+      <div class="container-1825">
         <img class="container-182-child2" alt="" src="./public/group-142.svg" />
 
         <div class="say-hello-and-lets-work-toget-parent1">
@@ -172,20 +172,27 @@
           window.location.href = "./my-projects.html";
         });
       }
-      
+
+      var frameContainer = document.getElementById("frameContainer");
+      if (frameContainer) {
+        frameContainer.addEventListener("click", function (e) {
+          window.location.href = "./about-me.html";
+        });
+      }
+
       var frame1 = document.getElementById("frame1");
       if (frame1) {
         frame1.addEventListener("click", function (e) {
           window.location.href = "./blogs.html";
         });
       }
-      
+
       var nameFolio = document.getElementById("nameFolio");
       if (nameFolio) {
         nameFolio.addEventListener("click", function (e) {
           window.location.href = "homepage.html";
         });
       }
-      </script>
+    </script>
   </body>
 </html>

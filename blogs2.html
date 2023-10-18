@@ -27,9 +27,6 @@
         <img class="image-244-icon" alt="" src="./public/image-244.svg" />
 
         <div class="container-1811">
-          <a class="name-folio1" href="homepage.html" id="nameFolio"
-            >Portfolio</a
-          >
           <div class="header-menu-151">
             <a class="frame21" href="./my-projects.html" id="frame">
               <div class="projects1">Projects</div>
@@ -41,6 +38,9 @@
               <div class="projects1">Blog</div>
             </a>
           </div>
+          <a class="name-folio1" href="homepage.html" id="nameFolio"
+            >Portfolio</a
+          >
         </div>
       </div>
       <div class="container-215">
@@ -155,33 +155,33 @@
     </div>
 
     <script>
-      var nameFolio = document.getElementById("nameFolio");
-      if (nameFolio) {
-        nameFolio.addEventListener("click", function (e) {
-          window.location.href = "homepage.html";
-        });
-      }
-      
       var frame = document.getElementById("frame");
       if (frame) {
         frame.addEventListener("click", function (e) {
           window.location.href = "./my-projects.html";
         });
       }
-      
+
       var frameContainer = document.getElementById("frameContainer");
       if (frameContainer) {
         frameContainer.addEventListener("click", function (e) {
           window.location.href = "./about-me.html";
         });
       }
-      
+
       var frame1 = document.getElementById("frame1");
       if (frame1) {
         frame1.addEventListener("click", function (e) {
           window.location.href = "./blogs.html";
         });
       }
-      </script>
+
+      var nameFolio = document.getElementById("nameFolio");
+      if (nameFolio) {
+        nameFolio.addEventListener("click", function (e) {
+          window.location.href = "homepage.html";
+        });
+      }
+    </script>
   </body>
 </html>

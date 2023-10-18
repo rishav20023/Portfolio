@@ -77,6 +77,7 @@
   background-color: var(--color-white);
   width: 1056px;
   height: 493px;
+  font-size: var(--font-size-xl);
 }
 .container-193-child {
   position: absolute;
@@ -192,83 +193,6 @@
   background-color: var(--color-white);
   width: 1148px;
   height: 432px;
-  font-size: var(--headings-size);
-}
-.projects4 {
-  position: absolute;
-  top: calc(50% - 11px);
-  left: 12px;
-  line-height: 22px;
-}
-.frame30,
-.frame31 {
-  height: 100%;
-  top: 0;
-  bottom: 0;
-  border-radius: var(--br-9xs);
-  overflow: hidden;
-}
-.frame30 {
-  text-decoration: none;
-  position: absolute;
-  width: 26.51%;
-  right: 73.49%;
-  left: 0;
-  background-color: var(--color-gray-500);
-  cursor: pointer;
-  color: inherit;
-}
-.frame31 {
-  width: 29.53%;
-  right: 43.96%;
-  left: 26.51%;
-  color: var(--color-darkturquoise);
-}
-.frame31,
-.frame32,
-.header-menu-154 {
-  position: absolute;
-  background-color: var(--color-gray-500);
-}
-.frame32 {
-  text-decoration: none;
-  height: 100%;
-  width: 18.12%;
-  top: 0;
-  right: 25.84%;
-  bottom: 0;
-  left: 56.04%;
-  border-radius: var(--br-9xs);
-  overflow: hidden;
-  cursor: pointer;
-  color: inherit;
-}
-.header-menu-154 {
-  top: 8px;
-  left: 967px;
-  width: 298px;
-  height: 24px;
-}
-.name-folio4 {
-  text-decoration: none;
-  position: absolute;
-  top: 8px;
-  left: 128px;
-  font-size: var(--font-size-xl);
-  line-height: 46px;
-  font-weight: 700;
-  font-family: var(--headings);
-  color: var(--color-gray-300);
-  cursor: pointer;
-}
-.container-1814 {
-  position: absolute;
-  top: 0;
-  left: -37px;
-  background-color: var(--color-white);
-  width: 1280px;
-  height: 62px;
-  font-family: var(--font-inter);
 }
 .image-194-icon {
   position: absolute;
@@ -331,8 +255,6 @@
   top: 139px;
   width: 640.86px;
   height: 514.23px;
-  font-size: var(--headings-size);
-  color: var(--color-darkturquoise);
 }
 .hello-im-nelson1,
 .occaecat-elit-pariatur-container {
@@ -358,16 +280,91 @@
   font-size: var(--font-size-xl);
   color: var(--color-darkslategray-200);
 }
-.container-1801 {
+.projects4 {
+  position: absolute;
+  top: calc(50% - 11px);
+  left: 12px;
+  line-height: 22px;
+}
+.frame30,
+.frame31 {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  border-radius: var(--br-9xs);
+  overflow: hidden;
+  cursor: pointer;
+}
+.frame30 {
+  text-decoration: none;
+  position: absolute;
+  width: 26.51%;
+  right: 73.49%;
+  left: 0;
+  background-color: var(--color-gray-500);
+  color: inherit;
+}
+.frame31 {
+  width: 29.53%;
+  right: 43.96%;
+  left: 26.51%;
+  color: var(--color-darkturquoise);
+}
+.frame31,
+.frame32,
+.header-menu-154 {
+  position: absolute;
+  background-color: var(--color-gray-500);
+}
+.frame32 {
+  text-decoration: none;
+  height: 100%;
+  width: 18.12%;
+  top: 0;
+  right: 25.84%;
+  bottom: 0;
+  left: 56.04%;
+  border-radius: var(--br-9xs);
+  overflow: hidden;
+  cursor: pointer;
+  color: inherit;
+}
+.header-menu-154 {
+  top: 8px;
+  left: 967px;
+  width: 298px;
+  height: 24px;
+}
+.name-folio4 {
+  text-decoration: none;
+  position: absolute;
+  top: 8px;
+  left: 128px;
+  font-size: var(--font-size-xl);
+  line-height: 46px;
+  font-weight: 700;
+  color: var(--color-gray-300);
+  cursor: pointer;
+}
+.container-1801,
+.container-1814 {
   position: absolute;
   top: 0;
-  left: calc(50% - 600px);
   background-color: var(--color-white);
+}
+.container-1814 {
+  left: -12px;
+  width: 1280px;
+  height: 62px;
+  font-size: var(--font-size-sm);
+  color: var(--color-darkslategray-100);
+}
+.container-1801 {
+  left: calc(50% - 600px);
   width: 1201px;
   height: 763px;
   overflow: hidden;
-  font-size: var(--font-size-sm);
-  color: var(--color-darkslategray-100);
+  color: var(--color-darkturquoise);
 }
 .container-182-child2,
 .say-hello-and4 {
@@ -415,7 +412,7 @@
   width: 874px;
   height: 148px;
 }
-.container-1824 {
+.container-1825 {
   position: absolute;
   bottom: 0;
   left: calc(50% - 640px);
@@ -433,7 +430,7 @@
   height: 2220px;
   overflow-x: auto;
   text-align: left;
-  font-size: var(--font-size-xl);
+  font-size: var(--headings-size);
   color: var(--color-darkslategray-200);
   font-family: var(--headings);
 }
