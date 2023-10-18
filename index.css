@@ -30,7 +30,6 @@
   gap: 9px;
   cursor: pointer;
   color: var(--color-darkturquoise);
-  font-family: var(--font-inter);
 }
 .frame,
 .frame-icon1,
@@ -152,7 +151,6 @@
 .product-photography {
   position: relative;
   line-height: 26px;
-  font-family: var(--font-inter);
   color: var(--color-blueviolet);
 }
 .paris-secrets {
@@ -197,7 +195,6 @@
   box-sizing: border-box;
   gap: var(--gap-3xs);
   color: var(--color-darkslategray-100);
-  font-family: var(--font-inter);
 }
 .frame7,
 .frame8 {
@@ -310,7 +307,6 @@
 .portrait {
   position: relative;
   line-height: 26px;
-  font-family: var(--font-inter);
   color: var(--color-darkturquoise);
 }
 .sint-occaecat-deserunt1 {
@@ -379,7 +375,6 @@
   cursor: pointer;
   font-size: var(--font-size-lg);
   color: var(--color-darkturquoise);
-  font-family: var(--font-inter);
 }
 .container-189 {
   top: 783px;
@@ -505,7 +500,6 @@
   height: 44px;
   font-size: var(--headings-size);
   color: var(--color-darkturquoise);
-  font-family: var(--font-inter);
 }
 .frame18 {
   top: 56px;
@@ -637,7 +631,7 @@
   font-size: var(--font-size-33xl);
   color: var(--color-white);
 }
-.homepage {
+.index1 {
   position: relative;
   background-color: var(--color-white);
   box-shadow: 0 3px 6px rgba(18, 15, 40, 0.12);
